@@ -1,0 +1,536 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+}
+.headerwidth{
+    width:100%;
+    margin:0 auto;
+    position:relative;
+}
+.headerimage{
+    width:100%;
+    display:block;
+}
+.headertext{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%)
+}
+.websitelogo{
+    font-size:50px;
+    text-transform:uppercase;
+    color:white;
+    letter-spacing:3px;
+    background-color:black;
+    padding:10px 20px;
+    opacity:0.6;
+    cursor:pointer;
+}
+.websitelogo:hover{
+    background-color:transparent;
+    opacity:1;
+}
+.navigation{
+    top:20px;
+    position:absolute;
+    width:100%;
+    height:80px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;;
+}
+.navigationmenu{
+    margin-left:30px;
+}
+.navlist{
+    color:black;
+    padding:10px;
+    text-decoration:none;
+    font-size:40px;
+    margin-left:20px;
+    font-weight:bold;
+    text-transform:capitalize;
+}
+.navlist:hover{
+    color:rgb(235, 231, 231);
+}
+.icons{
+    font-size:30px;
+    margin-right:5px;
+}
+.search{
+    margin-right:30px;
+    opacity:0.5;
+}
+.search:hover{
+    opacity:0.8;
+}
+.searchbox{
+    padding:8px 15px 10px 15px;
+    border-radius:15px;
+    border:none;
+    outline:none;
+    font-size:20px;
+}
+.searchbox:hover{
+    background-color:lightgray;
+}
+.about{
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+}
+.abouttext{
+    width:100%;
+    text-align:center;
+    padding:20px 20px 0 20px;
+}
+.about .abouttext h1{
+    text-transform:capitalize;
+    opacity:0.8;
+    letter-spacing:2px;
+}
+.about .abouttext h5{
+    font-size:20px;
+    opacity:0.8;
+    letter-spacing:1px;
+}
+.about .abouttext p{
+    text-align:justify;
+    font-size:25px;
+    letter-spacing:0.5px;
+    line-height:30px;
+}
+.biography{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+.biographyimage{
+    width:45%;
+}
+.biographyimage p{
+    text-align:center;
+    font-size:25px;
+    text-transform:uppercase;
+    font-weight:bold;
+}
+.biographyimage i{
+    font-size:25px;
+    margin-right:5px;
+}
+.bioimage{
+    width:100%;
+    display:block;
+}
+.biotext{
+    width:50%;
+}
+.biotext p{
+    padding:100px 5px 0 5px;
+    text-align:justify;
+    font-size:20px;
+    letter-spacing:0.5px;
+}
+.professional{
+    width:100%;
+}
+.professional h1{
+    text-align:center;
+    opacity:0.7;
+    font-size:40px;
+}
+.icon{
+    margin-right:5px;
+}
+.professional h2{
+    text-transform:capitalize;
+    font-size:30px;
+}
+.professionalbox{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#ccc;
+}
+.professionalupperbox1{
+    width:90%;
+    background-color:#555;
+}
+.professionalupperbox2{
+    width:85%;
+    background-color:#555;
+}
+.professionalupperbox3{
+    width:75%;
+    background-color:#555;
+}
+.professionalupperbox4{
+    width:40%;
+    background-color:#555;
+}
+.professionalupperbox5{
+    width:70%;
+    background-color:#555;
+}
+.professionaltext{
+    text-align:center;
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+    padding:3px;
+}
+.partner{
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+}
+.partner p{
+    width:25%;
+    padding:30px;
+    background-color:#555;
+    font-size:30px;
+    text-align:center;
+    text-transform:capitalize;
+    font-weight:bold;
+}
+.portfolio{
+    margin-top:-30px;
+    width:100%;
+    position:relative;
+}
+.portfolioimage{
+    width:100%;
+    display:block;
+}
+.portfoliotext{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:100px;
+    color:white;
+    font-weight:bold;
+    letter-spacing:3px;
+    text-transform:uppercase;
+}
+.secondportfolio{
+    width:80%;
+    margin:0 auto;
+}
+.secondportfolio h1{
+    text-align:center;
+    text-transform:uppercase;
+    font-size:50px;
+    opacity:0.8;
+    letter-spacing:2px;
+}
+.secondportfolio p{
+    text-align:center;
+    font-size:30px;
+    letter-spacing:1px;
+    opacity:0.7;
+    font-weight:bold;
+}
+.secondportfolioimages{
+    width:100%;
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+}
+.secondimages{
+    width:23%;
+    display:block;
+    margin-bottom:10px;
+}
+.load{
+    width:100%;
+    padding:5px;
+    font-size:20px;
+    text-transform:uppercase;
+    outline:none;  
+    border:none; 
+    cursor:pointer;
+}
+.loadmore{
+    width:20%;
+    margin:0 auto;
+}
+.contact{
+    width:100%;
+    position:relative;
+    margin-top:30px;
+}
+.contactimage{
+    width:100%;
+}
+.contacttext{
+    position:absolute;
+    top:80%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:100px;
+    color:white;
+    text-transform:uppercase;
+    font-weight:bold;
+    letter-spacing:2px;
+}
+.feedback{
+    width:90%;
+    margin:0 auto;
+    display:flex;
+    flex-wrap:wrap;
+}
+.leftfeedback{
+    width:30%;
+}
+.feedback .leftfeedback img{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:30px;
+    display:block;
+}
+.rightfeedback{
+    width:70%;
+}
+.rightfeedback a{
+    color:#555;
+    text-decoration:none;
+}
+.rightfeedback p{
+    font-weight:bold;
+    font-size:25px;
+}
+.rightfeedback a:hover{
+    color:black;
+}
+.feedbackicon{
+    margin-right:10px;
+}
+.rightfeedbackinput{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+.email-password{
+    width:40%;
+    padding:10px 10px;
+    outline:none;
+    margin-right:20px;
+}
+.email-password:hover{
+    border:2px solid black;
+    background-color:lightgray;
+}
+.message{
+    width:100%;
+    outline:none;
+    resize:vertical;
+    font-size:18px;
+    padding:10px;
+}
+.message:hover{
+    border:2px solid black;
+}
+.feedbackbutton{
+    text-transform:capitalize;
+    width:30%;
+    margin-left:70%;
+    padding:10px 0;
+    margin-top:10px;
+    font-size:20px;
+    background-color:black;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+.feedbackbutton:hover{
+    color:black;
+    background-color:lightgray;
+}
+.feedbackicon{
+    margin-right:5px;
+}
+.footer{
+    width:100%;
+    margin-top:40px;
+    background-color:#555;
+    text-align:center;
+}
+.footer:hover{
+    background-color:black;
+}
+.footerbutton{
+    margin-top:50px;
+    margin-bottom:20px;
+    font-size:20px;
+    text-transform:capitalize;
+    padding:10px;
+}
+.footer p{
+    font-size:25px;
+    color:white;
+    padding-bottom:50px;
+}
+.footer p a{
+    color:white;
+    text-decoration:none;
+}
+.fotterbutton:hover{
+    background-color:lightgray;
+}
+.footer a{
+    color:black;
+    text-decoration:none;
+}
+.footerfirsticon{
+    margin-right:10px;
+}
+.footericon{
+    text-align:center;
+    color:white;
+    font-size:30px;
+    margin-left:10px;
+}
+@media screen and (max-width:1000px){
+    .feedback{
+        display:block;
+    }
+    .feedback .leftfeedback{
+        width:100%;
+    }
+    .feedback .leftfeedback img{
+        width:100%;
+    }
+    .feedback .rightfeedback{
+        width:100%;
+        text-align:center;
+    }
+    .feedback .rightfeedback p{
+        display:inline-block;
+        margin-right:40px;
+        padding-top:20px;
+        padding-bottom:20px;
+    }
+}
+@media screen and (max-width:960px){
+    .searchbox{
+        display:none;
+    }
+    .bioimage{
+        height:500px;
+        object-fit:cover;
+    }
+}
+@media screen and (max-width:660px){
+    .navlist{
+        font-size:25px;
+    }
+    .icons{
+        font-size:20px;
+    }
+    .websitelogo{
+        font-size:30px;
+    }
+    .biographyimage{
+        width:100%;
+    }
+    .bioimage{
+        width:100%;
+    }
+    .biotext{
+        width:100%;
+    }
+    .biotext p{
+        padding:10px;
+    }
+    .rightfeedback{
+        width:100%;
+    }
+    .rightfeedbackinput{
+        width:100%;
+    }
+    .rightfeedbackinput .email-password{
+        width:80%;
+        margin:0 auto;
+        margin-right:0;
+        margin-bottom:20px;
+    }
+    .message{
+        width:100%;
+    }
+    .feedbackbutton{
+        width:50%;
+        margin-left:10%;
+        font-size:20px;
+        padding:10px;
+    }
+}
+@media screen and (max-width:413px){
+    .feedbackbutton{
+        font-size:13px;
+        width:60%;
+    }
+}
+@media screen and (max-width:640px){
+    .feedback .rightfeedback p{
+        font-size:20px;
+        padding-top:0;
+        padding-bottom:0;
+    }
+}
+@media screen and (max-width:680px){
+    .partner p{
+        font-size:20px;
+        padding:15px;
+    }
+}
+@media screen and (max-width:420px){
+    .partner{
+        width:100%;
+    }
+    .partner p{
+        font-size:15px;
+        margin-bottom:30px;
+    }
+    .navlist{
+        font-size:15px;
+        margin-left:0px;
+    }
+    .headertext{
+        top:80%;
+    }
+    .websitelogo{
+        font-size:15px;
+    }
+    .bioimage{
+        height:200px;
+    }
+    .portfoliotext{
+        font-size:45px;
+        top:80%;
+    }
+    .secondimages{
+        width:45%;
+    }
+    .loadmore{
+        width:50%;
+    }
+    .load{
+        font-size:15px;
+    }
+    .contacttext{
+        font-size:45px;
+    }
+}
